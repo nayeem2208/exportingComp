@@ -11,7 +11,7 @@ function HeaderComponent() {
           className="max-w-full h-auto"
         />
       </div>
-      <div className="w-4/5 md:w-1/2 searchBox items-center">
+      <div className="w-4/5 md:w-2/6 searchBox items-center">
         <form className="flex mt-2" role="search" aria-label="Search products">
           <label htmlFor="search-input" className="sr-only">
             Search for products, brands, and more
@@ -32,6 +32,12 @@ function HeaderComponent() {
           </button>
         </form>
       </div>
+      <div className="md:w-2/6 "><ul className="flex justify-evenly font-semibold">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Testimonials</li>
+        <li>Contact us</li>
+        </ul></div>
     </header>
   );
 }
